@@ -1,0 +1,65 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Build and packaging outputs
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# ML artifacts and generated runtime data
+artifacts/
+logs/
+*.log
+*.csv
+*.zip
+*.tar
+*.tar.gz
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+*.model
+
+# Hugging Face and dataset caches
+.cache/
+cache/
+huggingface/
+.huggingface/
+datasets/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
